@@ -1,0 +1,13 @@
+{% load static %}
+<link href=" {% static 'assets/css/style.css' %} " rel="stylesheet">
+
+<div class="logo">
+    <h1><a href=" {% url 'home' %} ">OMEGA</a></h1>
+
+    <!-- Uncomment below if you prefer to use an image logo -->
+    <!-- <a href=" {% static 'index.html' %} "><img src=" {% static 'assets/img/logo.png' %} " alt="" class="img-fluid"></a>-->
+  </div>
+  
+  {% block content %}
+  
+  {% endblock content %}
